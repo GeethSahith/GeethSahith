@@ -1,0 +1,350 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    -ms-overflow-style: none; /* IE and Edge */
+    background-color: #b1deed;
+    scrollbar-width: none; /* Firefox */
+    scroll-snap-type: y mandatory;
+}
+
+
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* Landing Page Styles */
+#landing-page {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, #a49d92f6,#a49d92f6, #15a9c3, #a49d92f6, rgb(180, 169, 153));
+    overflow: hidden;
+    transition: opacity 1ms ease-in-out;
+}
+
+/* Main Content Styles */
+#main-content {
+    display: none; /* Hidden initially */
+    padding: 20px;
+    background: linear-gradient(to bottom, #6bb0c7, rgba(212, 219, 221, 0.804)); /* Deep sky blue to faded sky blue */
+    transition: background 0.1s ease-in-out; /* Add transition for background color */
+}
+
+.header-container {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    justify-content: space-between; /* Space between heading and list */
+    margin-top: 10px; /* Add some space at the top */
+}
+
+/* Particle animation */
+@keyframes particle-animation {
+    0% {
+        transform: translateY(0) scale(0.5);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-100vh) scale(1);
+        opacity: 0;
+    }
+}
+
+.particle {
+    position: absolute;
+    background: radial-gradient(circle, #590303, #ff9f00);
+    border-radius: 50%;
+    opacity: 0.7;
+    pointer-events: none; /* Prevent interaction */
+}
+
+.particle:nth-child(odd) {
+    animation: particle-animation 2s linear infinite;
+}
+
+.particle:nth-child(even) {
+    animation: particle-animation 4s linear infinite;
+    animation-delay: 3s; /* Stagger animation */
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the items */
+    margin-top: 30px; /* Add some space above */
+}
+
+.about-image img {
+    width: 200px; /* Adjust the size as needed */
+    height: 200px; /* Adjust the size as needed */
+    border-radius: 20%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image covers the area */
+    margin-right: 20px; /* Space between the image and text */
+}
+
+.about-text {
+    text-align: left; /* Align text to the left */
+    margin-left: 80px;
+}
+
+.main-content {
+    display: none; /* Hide main content initially */
+    opacity: 0; /* Start with zero opacity */
+    transition: opacity 1s ease; /* Smooth transition */
+}
+
+#typing-text {
+    font-size: 60px;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    color: #0a1412; /* Initial color */
+    animation: textColorAnimation 10s infinite alternate; /* Apply color animation */
+}
+
+@keyframes textColorAnimation {
+    25% {
+        color: #353532;
+    }
+    50% {
+        color: #3d045933;
+    }
+    75% {
+        color: #0c0219;
+    }
+}
+
+ul {
+    margin-left: 20px; /* Move items to the right */
+    margin-top: 0px; /* Move items to the right */
+    padding: 0; 
+    text-align: center; /* Center the items */
+}
+
+ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+    text-align: center; /* Center the list */
+    position: absolute;
+    right: 100px; /* Moves the image to the far left of the page */
+    top: 8%;
+}
+
+ul li {
+    display: inline-block; /* Allow better control over spacing */
+    margin: 0 10px; /* Margin between list items */
+}
+
+ul li a {
+    color: #384703; /* Text color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold text */
+    font-size: large; /* Font size */
+    padding: 10px 15px; /* Padding for a button-like effect */
+    border: 2px solid transparent; /* Transparent border for initial state */
+    border-radius: 10px; /* Rounded corners */
+    position: relative; /* Position it relative for the animated border */
+    overflow: hidden; /* Hide overflow of the pseudo-element */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+ul li a:hover {
+    color: #030443; /* Change text color on hover */
+}
+
+/* Animated border effect */
+ul li a::before {
+    content: ""; /* Pseudo-element for the animated border */
+    position: absolute; /* Position it absolutely */
+    top: 50%; /* Center it vertically */
+    left: 50%; /* Center it horizontally */
+    width: 100%; /* Full width of the parent */
+    height: 100%; /* Full height of the parent */
+    z-index: -1; /* Place it behind the text */
+    border-radius: 5px; /* Match the button's border radius */
+    transform: translate(-50%, -50%) scale(0); /* Initially scale it down to 0 */
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth transition for scaling */
+    opacity: 0; /* Start invisible */
+}
+
+ul li a:hover::before {
+    transform: translate(-50%, -50%) scale(1); /* Scale up to 1 on hover */
+    opacity: 1; /* Make it visible */
+}
+
+@keyframes borderAnimation {
+    0% { border-color: #ef4e7b; }
+    25% { border-color: #18081a; }
+    50% { border-color: #5073b8; }
+    75% { border-color: #fe5405; }
+    100% { border-color: #060b0b; }
+}
+
+ul li a:hover {
+    animation: borderAnimation 1s infinite;
+}
+
+.skills-container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the items */
+    flex-wrap: wrap; /* Allow wrapping to next line on smaller screens */
+    gap: 20px; /* Space between items */
+    margin-top: 20px; /* Space above the skills section */
+}
+
+.skill-item {
+    text-align: center; /* Center text under each image */
+}
+
+.skill-image {
+    width: 96px; /* Set a fixed width */
+    height: 96px; /* Set a fixed height */
+    transition: transform 0.3s ease; /* Add transition for scaling */
+    width:200px;
+    height:200px;
+}
+
+.skill-image:hover {
+    transform: scale(1.1); /* Scale up on hover */
+}
+
+
+section {
+    padding: 50px;
+    text-align: center;
+    scroll-snap-align: start;
+}
+
+.top-section {
+    height: 100vh; 
+    margin-top: 200px;
+}
+
+#skills {
+    height: 100vh; 
+    margin-top: 100px;
+}
+
+#projects{
+    height: 100vh; 
+    margin-top: 100px;
+}
+
+.projects-container {
+    width: 650px;
+    max-height: 400px; /* Adjust based on your design */
+    overflow-y: scroll; /* Enable vertical scrolling */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    margin:0 auto;
+    border: 2px solid #007bff; /* Border color */
+    border-radius: 10px;
+    background: rgb(1, 9, 44); /* Card background color */
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.project-box {
+    background: #e6f7ff; /* Light blue background */
+    border: 1px solid #ff2f00; /* Border color */
+    height: 350px;
+    width:auto;
+    border-radius: 5px;
+    margin: 10px 0; /* Space between boxes */
+    padding: 15px;
+    cursor: pointer; /* Show pointer on hover */
+    transition: transform 0.3s ease;
+}
+
+.project-box:hover {
+    transform: scale(1.02); /* Slightly scale up on hover */
+}
+
+.project-box h2 {
+    margin: 0;
+    font-size: 2.5em; /* Title size */
+}
+
+#project-info1{
+    display: flex; /* Enable flexbox layout */
+    align-items: center; /* Vertically center items */
+    justify-content: flex-start; /* Align items to the start */
+    gap: 15px; /* Add space between the text and the image */
+}
+
+
+.profile-image-container{
+    margin-left: 270px;
+    margin-top: 6px;
+    float:left;
+}
+
+#header-image{
+    width: 60px; /* Adjust the size of the image */
+    height: 60px;
+    position: absolute;
+    left: 210px; /* Moves the image to the far left of the page */
+    top: 5%;
+    border-radius: 50%; /* Makes the image circular */
+    border: 2px solid #384703; /* Adds border color */
+    background-color: #3784d5;
+    transition: transform 0.7s ease;
+    cursor: pointer;
+    
+}
+
+@keyframes discoLights {
+    0% { border-color: #ef4e7b; }
+    25% { border-color: #18081a; }
+    50% { border-color: #5073b8; }
+    75% { border-color: #fe5405; }
+    100% { border-color: #060b0b; } 
+}
+
+#header-image:hover{
+    animation: discoLights 1s infinite;
+}
+
+.box {
+    display: flex; /* Flexbox layout */
+    align-items: center; /* Align image and heading vertically */
+    gap: 20px; /* Space between image and heading */
+}
+
+#circle img {
+    transform: rotate(-10deg); /* Adjust the angle to your preference */
+    margin-left: 30px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+   
+    margin:0 auto;
+    border-radius: 20px;
+    height: 100px;
+    width: 900px;
+}
+
+.contact-icon1 {
+    width: 70px;
+    height: 60px;
+    transition: transform 0.3s ease;
+    margin-right: 30px; /* Adjust this to move GitHub icon left */
+}
+
+.contact-icon2 {
+    width: 50px;
+    height: 70px;
+    transition: transform 0.3s ease;
+}
+
+.contact-icon1:hover,
+.contact-icon2:hover {
+    transform: scale(1.1); /* Hover effect */
+}

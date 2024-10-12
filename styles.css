@@ -291,7 +291,7 @@ section {
     top: 5%;
     border-radius: 50%; /* Makes the image circular */
     border: 2px solid #384703; /* Adds border color */
-    background-color: #3784d5;
+    background-color: #0b728c;
     transition: transform 0.7s ease;
     cursor: pointer;
     

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventurous Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="box">
+        <div class="boxs" style="margin-right: 10px;">
+            <div class="scrolling-text" id="scrolling-text">Hi! Welcome, Enjoy your Adventure.😊</div>
+            <h1 style="margin-top: 0%;">Cave Escape</h1>
+        </div>
+        <div class="image-button-container">
+            <img src="man-296526_1280.png" alt="Game Image" class="game-image">
+            <div class="button-container">
+                <button id="play-button" style="margin-right: 100px;">Play</button>
+                <button id="how-to-play-button" style="margin-right: 100px;">How to Play</button>
+                <button id="quit-button" style="margin-right: 100px;margin-bottom: 340px;">Quit</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="howToPlayModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeHowToPlay">&times;</span>
+            <h2>How to Play</h2>
+            <p>1. Use arrow keys to move the character.</p>
+            <p>2. Avoid the falling obstacles.</p>
+            <p>3. Survive as long as you can!</p>
+        </div>
+    </div>
+
+    <div id="quitModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeQuit">&times;</span>
+            <h2>Are you sure you want to quit?</h2>
+            <button id="confirmQuit" class="modal-button">Yes</button>
+            <button id="cancelQuit" class="modal-button">No</button>
+        </div>
+    </div>
+    
+    <div id="score" style="color: #ede8e8;margin-left: 10px;margin-top: 0px;">Score: 0</div>
+    <div id="high-score" style="color: #08d616;background-color: #4B2D28;border-radius: 5px;">High Score: 0</div>
+    <div class="outer-container">
+    <div id="game-area" style="display: none;">
+        <div id="character"></div>
+    </div>
+    </div>
+    <div id="game-over-modal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span id="close-button" class="close-button">&times;</span>
+            <h2>Game Over</h2>
+            <p style="color: #aaa;">Your score: <span id="final-score"></span></p>
+            <button id="restart-button" style="color: black;">Restart</button>
+        </div>
+    </div>
+
+    <audio id="button-click-sound" src="C:\Users\sethu\Downloads\448086__breviceps__normal-click.wav"></audio>
+    <audio id="collision-sound" src="C:\Users\sethu\Downloads\500283__danlucaz__box-falling-down.wav"></audio>
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>

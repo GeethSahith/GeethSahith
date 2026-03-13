@@ -8,3 +8,4 @@
 ## Projects
 - Financial Lending Outcome Predictor
 - Complaint Classification (NLP + Neural Networks)
+- RAG BASED Question Answering system

@@ -1,12 +1,12 @@
-# 👋Hi! I am Geeth Sahith.
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=1000&size=25&duration=1500&pause=1000&color=F7AC4C&background=4D4B5300&repeat=false&width=435&lines=%F0%9F%91%8B+Hi!+I+am+Geeth+Sahith)](https://git.io/typing-svg)
 
 **`AI + Full Stack | Building Intelligent Systems`**
 
 
-## 🧠 About Me
+## About Me
 
-- I build **AI-driven systems**, not just models
-- Currently focused on **AI Agents, RAG, and real-world ML applications**
+- I build **AI driven systems**, not just models
+- Currently focused on **AI Agents, RAG, and real world ML applications**
 - Strong interest in connecting **ML + Backend + scalable systems**
 - I learn by **building projects end-to-end and understanding systems deeply**
 
@@ -21,7 +21,7 @@
 
 ---
 
-## 📌 Projects — Showcase
+## Projects
 
 <table border="0" cellpadding="16" cellspacing="0" width="100%">
   <tr>
@@ -66,19 +66,7 @@
 
 ---
 
-## 🎯 Direction
+## Links
 
-I aim to build systems where:
-
-- AI models are not isolated
-- Systems can **reason, retrieve, and act**
-- AI integrates into real world applications
-
----
-
-<a href="https://linkedin.com/in/geethsahith" target="blank">
-  <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" />
-</a>
-<a href="https://www.instagram.com/geeth_sahith/" target="blank">
-  <img src="https://skillicons.dev/icons?i=instagram" alt="Instagram" />
-</a>
+**LinkedIn:** https://linkedin.com/in/geethsahith  
+**Instagram:** https://www.instagram.com/geeth_sahith/

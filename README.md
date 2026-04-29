@@ -1,7 +1,5 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=1000&size=25&duration=1500&pause=1000&color=F7AC4C&background=4D4B5300&repeat=false&width=435&lines=%F0%9F%91%8B+Hi!+I+am+Geeth+Sahith)](https://git.io/typing-svg)
-
-**`AI + Full Stack | Building Intelligent Systems`**
-
+### AI + Full Stack | Building Intelligent Systems
 
 ## About Me
 

@@ -51,7 +51,7 @@
       <h3>🏦 Financial Lending Outcome Predictor</h3>
       <sub>ML system to predict loan approvals using real-world preprocessing and modeling techniques.</sub>
       <br/><br/>
-      <a href="YOUR_REPO_LINK_1">
+      <a href="https://github.com/GeethSahith/FinancialLendingPredictor.git">
         <img src="https://img.shields.io/badge/View%20Repo-181717?style=for-the-badge&logo=github&logoColor=white" />
       </a>
       <br/><br/>
@@ -63,7 +63,7 @@
       <h3>🗂️ Complaint Classification (NLP + NN)</h3>
       <sub>Text classification system using Word2Vec and Neural Networks (FNN, LSTM).</sub>
       <br/><br/>
-      <a href="YOUR_REPO_LINK_2">
+      <a href="https://github.com/GeethSahith/Complaint-Classification-using-neural-networks-and-NLP.git">
         <img src="https://img.shields.io/badge/View%20Repo-181717?style=for-the-badge&logo=github&logoColor=white" />
       </a>
       <br/><br/>
@@ -75,7 +75,7 @@
       <h3>🤖 RAG-based Q&A System</h3>
       <sub>Built a retrieval + generation pipeline for contextual question answering.</sub>
       <br/><br/>
-      <a href="YOUR_REPO_LINK_3">
+      <a href="https://github.com/GeethSahith/RAG-based-Question-and-Answering-System.git">
         <img src="https://img.shields.io/badge/View%20Repo-181717?style=for-the-badge&logo=github&logoColor=white" />
       </a>
       <br/><br/>

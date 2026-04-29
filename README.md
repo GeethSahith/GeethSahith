@@ -1,15 +1,7 @@
-# ⚡ Geeth Sahith
+# 👋Hi! I am Geeth Sahith.
 
-**`AI + Full Stack Engineer | Building Intelligent Systems`**
+**`AI + Full Stack | Building Intelligent Systems`**
 
-<a href="https://linkedin.com/in/geethsahith" target="blank">
-  <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" />
-</a>
-<a href="https://www.instagram.com/geeth_sahith/" target="blank">
-  <img src="https://skillicons.dev/icons?i=instagram" alt="Instagram" />
-</a>
-
----
 
 ## 🧠 About Me
 
@@ -20,26 +12,12 @@
 
 ---
 
-## 🚀 Current Focus
+## Current Focus
 
-- AI Agents (ReAct, multi-agent workflows)
-- Retrieval-Augmented Generation (RAG)
+- AI Agents (ReAct, multi agent workflows)
+- Retrieval Augmented Generation (RAG)
 - FastAPI for ML system integration
-- End-to-end AI system design
-
----
-
-## 🛠️ Skill Stack
-
-<p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,git,github,fastapi,postgresql&theme=dark" />
-  </a>
-</p>
-
-**AI/ML:** Machine Learning · NLP · Neural Networks · GenAI
-
-**Currently Exploring:** Agents · RAG Systems · System Design
+- End to end AI system design
 
 ---
 
@@ -49,7 +27,7 @@
   <tr>
     <td align="center" width="33%" valign="top">
       <h3>🏦 Financial Lending Outcome Predictor</h3>
-      <sub>ML system to predict loan approvals using real-world preprocessing and modeling techniques.</sub>
+      <sub>ML system to predict loan approvals using real world preprocessing and modeling techniques.</sub>
       <br/><br/>
       <a href="https://github.com/GeethSahith/FinancialLendingPredictor.git">
         <img src="https://img.shields.io/badge/View%20Repo-181717?style=for-the-badge&logo=github&logoColor=white" />
@@ -72,7 +50,7 @@
       <img src="https://img.shields.io/badge/Word2Vec-3F51B5?style=flat-square&logoColor=white" />
     </td>
     <td align="center" width="33%" valign="top">
-      <h3>🤖 RAG-based Q&A System</h3>
+      <h3>🤖 RAG based Q&A System</h3>
       <sub>Built a retrieval + generation pipeline for contextual question answering.</sub>
       <br/><br/>
       <a href="https://github.com/GeethSahith/RAG-based-Question-and-Answering-System.git">
@@ -94,10 +72,13 @@ I aim to build systems where:
 
 - AI models are not isolated
 - Systems can **reason, retrieve, and act**
-- AI integrates into real-world applications
+- AI integrates into real world applications
 
 ---
 
-## ⚡ Philosophy
-
-> Building systems where AI and Full Stack engineering meet — not isolated models, but intelligent, real-world applications.
+<a href="https://linkedin.com/in/geethsahith" target="blank">
+  <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" />
+</a>
+<a href="https://www.instagram.com/geeth_sahith/" target="blank">
+  <img src="https://skillicons.dev/icons?i=instagram" alt="Instagram" />
+</a>

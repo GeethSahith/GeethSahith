@@ -1,11 +1,103 @@
-# Hi, I'm Geeth Sahith 👋
+# ⚡ Geeth Sahith
 
-🎓 BTech CSE (AI & ML) Student<br>
-🤖 Building ML and NLP systems<br>
-🌐 Currently exploring Full Stack Development<br>
-🚀 Aspiring GSoC contributor
+**`AI + Full Stack Engineer | Building Intelligent Systems`**
 
-## Projects
-- Financial Lending Outcome Predictor
-- Complaint Classification (NLP + Neural Networks)
-- RAG BASED Question Answering system
+<a href="https://linkedin.com/in/geethsahith" target="blank">
+  <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" />
+</a>
+<a href="https://www.instagram.com/geeth_sahith/" target="blank">
+  <img src="https://skillicons.dev/icons?i=instagram" alt="Instagram" />
+</a>
+
+---
+
+## 🧠 About Me
+
+- I build **AI-driven systems**, not just models
+- Currently focused on **AI Agents, RAG, and real-world ML applications**
+- Strong interest in connecting **ML + Backend + scalable systems**
+- I learn by **building projects end-to-end and understanding systems deeply**
+
+---
+
+## 🚀 Current Focus
+
+- AI Agents (ReAct, multi-agent workflows)
+- Retrieval-Augmented Generation (RAG)
+- FastAPI for ML system integration
+- End-to-end AI system design
+
+---
+
+## 🛠️ Skill Stack
+
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=python,git,github,fastapi,postgresql&theme=dark" />
+  </a>
+</p>
+
+**AI/ML:** Machine Learning · NLP · Neural Networks · GenAI
+
+**Currently Exploring:** Agents · RAG Systems · System Design
+
+---
+
+## 📌 Projects — Showcase
+
+<table border="0" cellpadding="16" cellspacing="0" width="100%">
+  <tr>
+    <td align="center" width="33%" valign="top">
+      <h3>🏦 Financial Lending Outcome Predictor</h3>
+      <sub>ML system to predict loan approvals using real-world preprocessing and modeling techniques.</sub>
+      <br/><br/>
+      <a href="YOUR_REPO_LINK_1">
+        <img src="https://img.shields.io/badge/View%20Repo-181717?style=for-the-badge&logo=github&logoColor=white" />
+      </a>
+      <br/><br/>
+      <img src="https://img.shields.io/badge/Machine%20Learning-FF6F00?style=flat-square&logoColor=white" />
+      <img src="https://img.shields.io/badge/Classification-4CAF50?style=flat-square&logoColor=white" />
+      <img src="https://img.shields.io/badge/Data%20Processing-2196F3?style=flat-square&logoColor=white" />
+    </td>
+    <td align="center" width="33%" valign="top">
+      <h3>🗂️ Complaint Classification (NLP + NN)</h3>
+      <sub>Text classification system using Word2Vec and Neural Networks (FNN, LSTM).</sub>
+      <br/><br/>
+      <a href="YOUR_REPO_LINK_2">
+        <img src="https://img.shields.io/badge/View%20Repo-181717?style=for-the-badge&logo=github&logoColor=white" />
+      </a>
+      <br/><br/>
+      <img src="https://img.shields.io/badge/NLP-9C27B0?style=flat-square&logoColor=white" />
+      <img src="https://img.shields.io/badge/Deep%20Learning-FF5722?style=flat-square&logoColor=white" />
+      <img src="https://img.shields.io/badge/Word2Vec-3F51B5?style=flat-square&logoColor=white" />
+    </td>
+    <td align="center" width="33%" valign="top">
+      <h3>🤖 RAG-based Q&A System</h3>
+      <sub>Built a retrieval + generation pipeline for contextual question answering.</sub>
+      <br/><br/>
+      <a href="YOUR_REPO_LINK_3">
+        <img src="https://img.shields.io/badge/View%20Repo-181717?style=for-the-badge&logo=github&logoColor=white" />
+      </a>
+      <br/><br/>
+      <img src="https://img.shields.io/badge/GenAI-00BCD4?style=flat-square&logoColor=white" />
+      <img src="https://img.shields.io/badge/RAG-8BC34A?style=flat-square&logoColor=white" />
+      <img src="https://img.shields.io/badge/LLMs-FF9800?style=flat-square&logoColor=white" />
+    </td>
+  </tr>
+</table>
+
+---
+
+## 🎯 Direction
+
+I aim to build systems where:
+
+- AI models are not isolated
+- Systems can **reason, retrieve, and act**
+- AI integrates into real-world applications
+
+---
+
+## ⚡ Philosophy
+
+> Building systems where AI and Full Stack engineering meet — not isolated models, but intelligent, real-world applications.
